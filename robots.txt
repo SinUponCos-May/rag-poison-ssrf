@@ -1,0 +1,24 @@
+User-agent: *
+Allow: /
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://SinUponCos-May.github.io/rag-poison-ssrf/sitemap.xml
+
+# AI crawler specific instructions
+User-agent: GPTBot
+Allow: /
+Crawl-delay: 2
+Disallow: /admin/
+
+User-agent: ClaudeBot
+Allow: /
+Crawl-delay: 2
+
+User-agent: CCBot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Google-Extended
+Allow: /
+Crawl-delay: 1
